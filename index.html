@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Tamplet </title>
+    <link rel="stylesheet" herf="css/leon.css"/>
+    <link rel="stylesheet" herf="css/normalize.css"/>
+
+    <!--work sance-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,500;0,600;0,800;1,100;1,200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/033710a432.js" crossorigin="anonymous"></script>
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .first{
+            max-width: auto;
+            height: auto;
+            box-shadow: 
+            0px 2px 10px rgba(217, 169, 169, 0.2), 
+            0px 10px 20px rgba(115, 109, 109, 0.3), 
+            0px 30px 60px 1px rgba(119, 114, 114, 0.5);
+            padding: 20px;
+            background: #26304a;
+            border-radius: 20px;
+            color: aliceblue;
+        }
+
+        .fa-solid.fa-briefcase{
+            color: rgb(244, 191, 66);
+        }
+        .fa-solid.fa-building{
+            color: rgb(244, 191, 66);
+        }
+        .fa-solid.fa-envelope-open{
+            color: rgb(244, 191, 66);
+        }
+        .fa-solid.fa-phone-volume{
+            color: rgb(244, 191, 66);
+        }
+        .fa-brands.fa-slack{
+            color: rgb(239, 188, 70);
+        }
+
+        .skills-title::after{
+            content: ' ';
+            position:absolute;
+            align-items: center;
+            margin-left: 0.6%;
+            margin-top: 1.6%;
+            height: 2px;
+            background:rgb(244, 191, 66);
+            width: 9%;
+        }
+        .name{
+            font-size: calc(0.5rem + 1.5vw);
+            width: 300px;
+        }
+        
+        .skills-title{
+            font-size: calc(1.225rem + .9vw);
+            color: rgb(252, 251, 251);
+            background-color: rgb(67, 64, 64);
+            width: auto;
+            margin-left: -10px;
+        }
+        
+        .skill{
+            background: #b4b1b1;
+            width: auto;
+            height:10;
+            border-radius: 10px;
+        }
+        
+        .skill div{
+            height: 10px;
+            border-radius: 2px;
+        }
+
+        .skill div span{
+            height: 40px;
+            width: 40px;
+            border-radius:50%;
+            background: rgb(147, 144, 144);
+            float: right;
+            margin-top: -15px;
+            margin-right: -20px;
+            color:rgb(255, 255, 255);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .Adobe-photoshop{
+            background: rgb(246, 208, 70);
+            animation: Adobe-photoshop 1s linear forwards;
+        }
+        .Java-Script{
+            background: rgb(246, 208, 70);
+            animation: Java-Script 1s linear forwards;
+        }
+        .Html{
+            background: rgb(246, 208, 70);
+            animation: Html 1s linear forwards;
+        }
+        .SQL-Server{
+            background: rgb(246, 208, 70);
+            animation: SQL-Server 1s linear forwards;
+        }
+        .Adobe-photoshop span{
+            border: 1px solid rgb(232, 191, 42);
+        }
+        .Java-Script span{
+            border: 1px solid rgb(246, 208, 70);
+        }
+        .Html span{
+            border: 1px solid rgb(246, 208, 70);
+        }
+        .SQL-Server span{
+            border: 1px solid rgb(246, 208, 70);
+        }
+
+        @keyframes Adobe-photoshop{
+            100%{
+                width: 50%;
+            }
+        }
+        @keyframes SQL-Server{
+            100%{
+                width: 98%;
+            }
+        }
+        @keyframes Html{
+            100%{
+                width: 91%;
+            }
+        }
+        @keyframes Java-Script{
+            100%{
+                width: 40%;
+            }
+        }
+        @keyframes Arabic{
+            100%{
+                width: 5%;
+            }
+        }
+        .languages-tittle{
+            font-size: calc(1.225rem + .9vw);
+            color: rgb(252, 251, 251);
+            background-color: rgb(67, 64, 64);
+            width: auto;
+            margin-left: -10px;
+        }
+        .fa-solid.fa-language{
+            color: rgb(239, 188, 70);
+        }
+        .languages-tittle::after{
+            content: ' ';
+            position:absolute;
+            align-items: center;
+            margin-left: 0.6%;
+            margin-top: 1.6%;
+            height: 2px;
+            background:rgb(244, 191, 66);
+            width: 4%;
+        }
+
+        .language{
+            background: #b4b1b1;
+            width: auto;
+            height:10;
+            border-radius: 10px;
+        }
+        
+        .language div{
+            height: 10px;
+            border-radius: 2px;
+        }
+
+        .english {
+            background: rgb(246, 208, 70);
+            animation: Adobe-photoshop 1s linear forwards;
+            
+        }
+        .Spain {
+            background: rgb(246, 208, 70);
+            animation: SQL-Server 1s linear forwards;
+        }
+        .Arabic {
+            background: rgb(246, 208, 70);
+            animation: Arabic 1s linear forwards;
+        }
+
+        .second{
+            width: auto;
+            height: auto;
+            box-shadow: 
+            0px 2px 10px rgba(217, 169, 169, 0.2), 
+            0px 10px 20px rgba(115, 109, 109, 0.3), 
+            0px 30px 60px 1px rgba(119, 114, 114, 0.5);
+            padding: 20px;
+            background: #e1e2e3;
+            border-radius: 20px;
+        }
+
+        .work-title{
+            font-size: calc(1.1rem + .9vw);
+            color: rgb(49, 48, 48);
+            width: auto;
+            margin-left: -10px;
+        }
+        .work{
+            font-size: calc(0.7rem + .9vw);
+            color: rgb(49, 48, 48);
+            width: auto;
+            margin-left: 25px;
+        }
+        .fa-solid.fa-person-chalkboard{
+            color: rgb(239, 188, 70);
+
+        }
+        .fa.fa-calendar-days{
+            color: rgb(239, 188, 70);
+        }
+        .current{
+            background: rgb(239, 188, 70);
+            border-radius: 8px;
+            padding-right:5px ;
+            padding-left: 5px;
+        }
+        .third{
+            width: auto;
+            height: auto;
+            box-shadow: 
+            0px 2px 10px rgba(217, 169, 169, 0.2), 
+            0px 10px 20px rgba(115, 109, 109, 0.3), 
+            0px 30px 60px 1px rgba(119, 114, 114, 0.5);
+            padding: 20px;
+            background: #e1e2e3;
+            border-radius: 20px;
+        }
+        .education-title{
+            font-size: calc(1.1rem + .9vw);
+            color: rgb(49, 48, 48);
+            width: auto;
+            margin-left: -10px;
+        }
+        .educations{
+            font-size: calc(0.7rem + .9vw);
+            color: rgb(49, 48, 48);
+            width: auto;
+            margin-left: 25px;
+        }
+        .fa-solid.fa-certificate{
+            color: rgb(239, 188, 70);
+
+        }
+
+        .Main-Container{
+            display: grid;
+            grid-template-columns: 25% 75%;
+            grid-gap:20px 20px;
+            padding-right: 30px;
+            padding-top: 5px;
+        }
+
+        .first{
+            grid-row-start: 1;
+            grid-row-end: 3;
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+
+        .second{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+
+        .third{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+
+        .footer{
+            background-color: #26304a;
+            color: #e1e2e3;
+            text-align: center;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            font-size: 20px;
+        }
+        .icons{
+            font-size: 50px;
+            color: rgb(239, 188, 70);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="Main-Container">
+        <div class="first">
+            <div class="media2">
+                <img src="image2.jpeg" width="100%">
+            </div>
+            <div class="All-about">
+                <div class="name">
+                    Cathren Mark
+                </div>
+                <div class="informations">
+                    <p><i class="fa-solid fa-briefcase" ></i> Bachalore in Computer</p>
+                    <p><i class="fa-solid fa-building"></i> Paris France</p>
+                    <p><i class="fa-solid fa-envelope-open"></i> Eng_Cathren@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i> 726539847</p>
+                    <p class="skills-title"><i class="fa-brands fa-slack"></i> Skills</p>
+                </div>
+                <div class="container">
+                    <div class="skills">
+                        <h2>Adobe Photoshop</h2>
+                        <div class="skill">
+                            <div class="Adobe-photoshop"><span>50%</span></div>
+                        </div>
+
+                        <h2>SQL Server</h2>
+                        <div class="skill">
+                            <div class="SQL-Server"><span>98%</span></div>
+                        </div>
+
+                        <h2>Html</h2>
+                        <div class="skill">
+                            
+                            <div class="Html"><span>91%</span></div>
+                        </div>
+                        <h2>Java Script</h2>
+                        <div class="skill">
+                            
+                            <div class="Java-Script"><span>40%</span></div>
+                        </div>
+                    </div>
+    
+                    
+                <p class="languages-tittle"><i class="fa-solid fa-language"></i> Languages</p>
+                <div class="container">
+                    <div class="languages">
+                        
+                        <h3>English</h3>
+                        <div class="language">
+                            <div class="english"></div>
+                        </div>
+
+                        <h3>Spain</h3>
+                        <div class="language">
+                            <div class="Spain"></div>
+                        </div>
+
+                        <h3>Arabic</h3>
+                        <div class="language">
+                            <div class="Arabic"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div class="second">
+            <div class="works">
+                <p class="work-title"><i class="fa-solid fa-person-chalkboard"></i> Work Experience</p>
+                <div class="work">
+                    <h5>Front End Developer</h5>
+                    <p class="first-work"><i class="fa fa-calendar-days"></i> Jan 2018 <span class="current">current</span></p>
+                    A front-end developer builds the front-end portion of websites and web applications—that is, the part that users actually see and interact with
+                    <hr></hr>
+
+                    <h5>Web Developer</h5>
+                    <p class="first-work"><i class="fa fa-calendar-days"></i> Mar 2012 - Dec 2014</p>
+                    Web developers build websites and ensure they perform reliably and efficiently. Learn more about this critical role in the tech industry and how to get started.
+                    <hr></hr>
+                </div>
+            </div>
+        </div>
+
+        <div class="third">
+            <div class="educations">
+                <p class="education-title"><i class="fa-solid fa-certificate"></i> Education</p>
+                <div class="education">
+                    <h5>London University</h5>
+                    <p class="first-work"><i class="fa fa-calendar-days"></i> Jan 2023 <span class="current">current</span></p>
+                     I Am Studing Information Technology and computing
+                    <hr></hr>
+                    <h5>Paris International School</h5>
+                    <p class="first-work"><i class="fa fa-calendar-days"></i> Dec 2009</p>
+                    Graduated with GPA 99%
+                    <hr></hr>
+                </div>
+            </div>
+        </div>   
+
+        <div class="footer">
+            <h3>Find me on social media.</h3>
+            <div class="icons"><i class="fa-brands fa-square-twitter"></i> <i class="fa-brands fa-linkedin"></i> <i class="fa-brands fa-square-whatsapp"></i> <i class="fa-brands fa-square-instagram"></i>
+            </div>
+            
+        </div>
+    </div>   
+</body>
+</html>
